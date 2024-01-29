@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="user_icon" data-name="user icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176.57 180.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a52323;
+      }
+
+      .ui-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .ui-3 {
+        stroke: #ead7b9;
+        stroke-width: 4.75px;
+      }
+
+      .ui-3, .ui-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .ui-4 {
+        stroke: #000;
+        stroke-width: 5px;
+      }
+
+      .ui-2 {
+        fill: #ead7b9;
+      }
+    </style>
+
+    <script>
+const vectorGraphic = document.querySelector('#user_icon')
+
+function logThisId() {
+    console.log(this);
+    console.log('i have been clicked', this.id);
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+</script>
+
+  </defs>
+  <circle class="ui-1" cx="87.3" cy="91.05" r="78.72"/>
+  <circle class="ui-2" cx="87.3" cy="66.46" r="15.66"/>
+  <path class="ui-2" d="m58.45,166.59c-.62-2.43-.94-4.99-.94-7.62v-38.05c0-16.49,12.86-29.86,28.72-29.86h0c15.86,0,28.72,13.37,28.72,29.86v38.05c0,3.05-.44,5.99-1.26,8.77"/>
+  <circle class="ui-4" cx="87.3" cy="91.05" r="78.72"/>
+  <circle class="ui-3" cx="87.3" cy="91.05" r="74.81"/>
+</svg>

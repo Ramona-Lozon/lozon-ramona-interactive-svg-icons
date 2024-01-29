@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157.45 157.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a52323;
+        stroke-width: 7.21px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #ead7b9;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 3.91px;
+      }
+
+      .cls-3 {
+        fill: #ead7b9;
+        stroke-width: 10.8px;
+      }
+    </style>
+  </defs>
+  <g id="info_icon" data-name="info icon">
+    <g>
+      <rect class="cls-1" x="6.37" y="6.79" width="144" height="144" rx="8.68" ry="8.68"/>
+      <g>
+        <line class="cls-3" x1="78.37" y1="45.82" x2="78.37" y2="134.2"/>
+        <line class="cls-3" x1="52.58" y1="134.2" x2="104.16" y2="134.2"/>
+        <line class="cls-3" x1="58.97" y1="45.82" x2="78.37" y2="45.82"/>
+        <circle class="cls-3" cx="78.54" cy="21.18" r=".17"/>
+      </g>
+      <rect class="cls-2" x="1.96" y="1.96" width="153.53" height="153.53" rx="14.97" ry="14.97"/>
+    </g>
+  </g>
+</svg>

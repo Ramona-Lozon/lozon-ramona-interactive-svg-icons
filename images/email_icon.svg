@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="email_icon" data-name="email icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237.45 130.6">
+  <defs>
+    <style>
+      .em-1, .em-2, .em-3, .em-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .em-1, .em-2, .em-4 {
+        stroke: #ead7b9;
+        stroke-width: 10.69px;
+      }
+
+      .em-1, .em-3, .em-4 {
+        fill: none;
+      }
+
+      .em-2 {
+        fill: #a52323;
+      }
+
+      .em-3 {
+        stroke: #000;
+        stroke-width: 3.91px;
+      }
+
+      .em-3, .em-4 {
+        stroke-linecap: round;
+      }
+    </style>
+
+    <script>
+const vectorGraphic = document.querySelector('#email_icon')
+
+function logThisId() {
+    console.log(this);
+    console.log('i have been clicked', this.id);
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+</script>
+
+  </defs>
+  <rect class="em-2" x="10.03" y="10.19" width="216" height="108" rx="12.83" ry="12.83"/>
+  <line class="em-1" x1="14.8" y1="13.05" x2="118.03" y2="86.42"/>
+  <line class="em-4" x1="222.18" y1="13.86" x2="118.03" y2="86.42"/>
+  <rect class="em-3" x="3.06" y="3.19" width="227.49" height="122.04" rx="19.39" ry="19.39"/>
+</svg>
