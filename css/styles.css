@@ -2,16 +2,28 @@
     display: none;
 }
 
+.logo_header {
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 100px;
+Background-color: #eee;
+}
+
+#logo {
+    width: 100px;
+}
+
 .content {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
     Background-color: #eee;
 }
 
 #search_icon, #email_icon, #info_icon, #soda_can_icon, #home_icon, #user_icon {
     width: 200px;
+    padding: 50px;
 }
 
 /* search icon stlyes */
