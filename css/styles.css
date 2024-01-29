@@ -21,6 +21,16 @@ Background-color: #eee;
     Background-color: #eee;
 }
 
+.text {
+    color:#ead7b9;
+    background-color:#a52323;
+    padding: 20px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
 #search_icon, #email_icon, #info_icon, #soda_can_icon, #home_icon, #user_icon {
     width: 200px;
     padding: 50px;
