@@ -7,82 +7,141 @@
     align-items: center;
     justify-content: center;
     height: 300px;
+    Background-color: #eee;
 }
 
 #search_icon, #email_icon, #info_icon, #soda_can_icon, #home_icon, #user_icon {
     width: 200px;
 }
 
+/* search icon stlyes */
+
+#search_icon {
+    transition: all 0.5s ease-in-out;
+}
+
+#search_icon:hover {
+    transform: scale(1.2);
+}
+
 #search_icon:hover .si-2 {
-    fill:  #ead7b9;
     stroke: #a52323;
 }
 
 #search_icon:hover .si-3 {
-    fill:  #ead7b9;
+    fill:  white;
     stroke: #a52323;
 }
 
+/* email icon styles */
 #email_icon:hover {
     animation: bounce 1s ease-in-out infinite;
 }
 
-@keyframes bounce {
-    50% {
-        transform: translateY(-50px)
+#email_icon:hover .em-2 {
+    fill: white;
+    stroke:#a52323;
+}
 
-    }
+#email_icon:hover .em-1 {
+    stroke:#a52323;
+}
+
+#email_icon:hover .em-4 {
+    stroke:#a52323;
+}
+
+/* info icon stlyes */
+#info_icon:hover .ic-1 {
+    fill: white;
+    stroke:#a52323;
+}
+
+#info_icon:hover .ic-3 {
+    stroke: #a52323;
+}
+
+#info_icon:hover .ic-4 {
+    fill: #a52323;
+}
+
+/* soda can styles */
+
+#soda_can_icon:hover {
+    animation: spin 1s ease-in-out infinite;
+}
+
+#soda_can_icon:hover .sc-2 {
+    fill: white;
+}
+
+#soda_can_icon:hover .sc-3 {
+    stroke: white;
+}
+
+#soda_can_icon:hover .sc-6 {
+    fill: #ead7b9;
+}
+
+#soda_can_icon:hover .sc-7 {
+    fill: #ead7b9;
+}
+
+/* home icon styles */
+
+#home_icon:hover {
+    animation: pulse 1s infinite;
+}
+
+#home_icon:hover .hi-2 {
+    fill: white;
+    stroke:#a52323;
+}
+
+/* user icon styles */
+#user_icon:hover .ui-2 {
+    fill: #a52323;
+}
+
+#user_icon:hover .ui-1 {
+    fill: white;
 }
 
 #user_icon:hover .ui-3 {
-    fill: #a52323;
-}
-/* ---Grid Styles---
-
-.full-w-grid {
-    display: grid; 
-     grid-template-columns: 1fr minmax(0, 1200px) 1fr;  
- }
- 
-  .grid { 
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-column-gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
- }
- 
- 
- .col-span-1	{grid-column: span 1 / span 1;}
- .col-span-2	{grid-column: span 2 / span 2;}
- .col-span-3	{grid-column: span 3 / span 3;}
- .col-span-4	{grid-column: span 4 / span 4;}
- .col-span-full {grid-column: 1 / -1;}
- 
- .col-start-1	{grid-column-start: 1;}
- .col-start-2	{grid-column-start: 2;}
- .col-start-3	{grid-column-start: 3;}
- .col-start-4	{grid-column-start: 4;}
- 
- .col-end-1	{grid-column-end: 1;}
- .col-end-2	{grid-column-end: 2;}
- .col-end-3	{grid-column-end: 3;}
- .col-end-4	{grid-column-end: 4;}
- .col-end-5	{grid-column-end: 5;}
- 
-#greytext {
-    transition: all 5s ease;
-    transform-origin: center;
+    stroke: #a52323;
 }
 
-#badge:hover #bgcircle {
-    fill: orange;
+/* animations */
+
+@keyframes bounce {
+    30% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
-#badge:hover #greytext {
-    Fill: white;
-    transform: rotate(130deg);
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
-*/
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
