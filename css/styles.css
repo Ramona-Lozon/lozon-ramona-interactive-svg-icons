@@ -2,16 +2,48 @@
     display: none;
 }
 
+.logo_header {
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 100px;
+Background-color: #eee;
+}
+
+#logo {
+    width: 100px;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#a52323;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    background-color:#eee;
+}
+
 .content {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
     Background-color: #eee;
+}
+
+.text {
+    color:#ead7b9;
+    background-color:#a52323;
+    padding: 20px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
 }
 
 #search_icon, #email_icon, #info_icon, #soda_can_icon, #home_icon, #user_icon {
     width: 200px;
+    padding: 50px;
 }
 
 /* search icon stlyes */
