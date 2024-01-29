@@ -14,6 +14,16 @@ Background-color: #eee;
     width: 100px;
 }
 
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#a52323;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    background-color:#eee;
+}
+
 .content {
     display: flex;
     align-items: center;
