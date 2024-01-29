@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="home_icon" data-name="home icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 217.43 182.38">
+  <defs>
+    <style>
+      .hi-1 {
+        stroke: #000;
+        stroke-width: 15px;
+      }
+
+      .hi-1, .hi-2 {
+        fill: #a52323;
+        stroke-miterlimit: 10;
+      }
+
+      .hi-2 {
+        stroke: #ead7b9;
+        stroke-width: 7.54px;
+      }
+    </style>
+
+<script>
+const vectorGraphic = document.querySelector('#home_icon')
+
+function logThisId() {
+    console.log(this);
+    console.log('i have been clicked', this.id);
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+</script>
+
+  </defs>
+  <path class="hi-1" d="m156.71,56.37L108.15,12.14c-.1-.09-.24-.09-.34,0l-48.56,44.23L11.01,100.32c-.17.15-.06.44.17.44h18.05c.14,0,.25.11.25.25v68.77c0,.14.11.25.25.25h51.84c.14,0,.25-.11.25-.25v-34.14c0-.14.11-.25.25-.25h51.84c.14,0,.25.11.25.25v34.14c0,.14.11.25.25.25h51.84c.14,0,.25-.11.25-.25v-68.77c0-.14.11-.25.25-.25h18.05c.23,0,.34-.28.17-.44l-48.25-43.95Z"/>
+  <path class="hi-2" d="m156.71,56.37L108.15,12.14c-.1-.09-.24-.09-.34,0l-48.56,44.23L11.01,100.32c-.17.15-.06.44.17.44h18.05c.14,0,.25.11.25.25v68.77c0,.14.11.25.25.25h51.84c.14,0,.25-.11.25-.25v-34.14c0-.14.11-.25.25-.25h51.84c.14,0,.25.11.25.25v34.14c0,.14.11.25.25.25h51.84c.14,0,.25-.11.25-.25v-68.77c0-.14.11-.25.25-.25h18.05c.23,0,.34-.28.17-.44l-48.25-43.95Z"/>
+</svg>

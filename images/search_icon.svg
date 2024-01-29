@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="search_icon" data-name="search icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211.83 216.46">
+  <defs>
+    <style>
+      .si-1 {
+        stroke-width: 5px;
+      }
+
+      .si-1, .si-2, .si-3, .si-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .si-1, .si-2, .si-4 {
+        stroke-linecap: round;
+      }
+
+      .si-1, .si-4 {
+        fill: none;
+        stroke: #000;
+      }
+
+      .si-2, .si-3 {
+        fill: #a52323;
+        stroke: #ead7b9;
+        stroke-width: 20px;
+      }
+
+      .si-4 {
+        stroke-width: 4.88px;
+      }
+    </style>
+
+    <script>
+const vectorGraphic = document.querySelector('#search_icon')
+
+function logThisId() {
+    console.log(this);
+    console.log('i have been clicked', this.id);
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+</script>
+
+  </defs>
+  <g>
+    <circle class="si-3" cx="82.05" cy="77.39" r="55.5"/>
+    <line class="si-2" x1="191.55" y1="195.29" x2="119.35" y2="120.89"/>
+  </g>
+  <path class="si-1" d="m117.31,134.6c-10.25,6.33-22.33,9.99-35.27,9.99-37.11,0-67.2-30.08-67.2-67.2S44.94,10.19,82.05,10.19s67.2,30.08,67.2,67.2c0,16.61-6.02,31.8-16,43.53"/>
+  <path class="si-4" d="m132.79,121.57l68.34,68.34c3.76,3.76,3.68,9.93-.18,13.79h0c-3.86,3.86-10.03,3.93-13.79.18l-68.34-68.34"/>
+</svg>
